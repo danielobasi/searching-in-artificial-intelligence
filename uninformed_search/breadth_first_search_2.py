@@ -1,13 +1,5 @@
 from collections import deque
-
-graph = {
-    'A' : ['B','C'],
-    'B' : ['D','E'],
-    'C' : ['F'],
-    'D' : [],
-    'E' : [],
-    'F' : []
-}
+from dataset import graph
 
 # define a function to perform breadth-first search
 def bfs(graph, start):
