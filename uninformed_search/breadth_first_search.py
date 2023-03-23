@@ -1,6 +1,6 @@
 from dataset import graph
 
-visited = [] # List of visisted nodes
+visited = [] # Created a list of visited nodes
 queue = []  # Initialize a queue
 
 def bfs(visited,graph, node):
